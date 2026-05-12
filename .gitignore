@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Virtual environments
+venv*/
+.venv/
+
+# CIFAR-10 raw data
+data/
+
+# Checkpoints (large binary files — use Git LFS if needed)
+outputs/checkpoint_*.pt
+
+# OS
+.DS_Store
+Thumbs.db
